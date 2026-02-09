@@ -289,7 +289,7 @@ def generate_schematics(data, labels, k, save_dir):
     print(f"Saved Schematics for K={k} in {save_dir}")
 
 def main():
-    FILE_PATH = r'D:\M021\peth_plot_data.mat'
+    FILE_PATH = r'test_data.mat'
     OUTPUT_DIR = 'clustering_results'
     
     if not os.path.exists(OUTPUT_DIR):
